@@ -1,0 +1,6 @@
+.ability-container{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 70px);
+    margin-left: 35px;
+}
