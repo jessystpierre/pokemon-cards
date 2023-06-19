@@ -4,7 +4,7 @@ import Text from '../text/Text';
 
 const CardText = (props) => {
   const classnames = ['card-text'];
-  const asProps = ['p', 'span', 'div', 'strong', 'em', 'small', 's'];
+  const asProps = ['p', 'span', 'div', 'strong', 'em', 'small', 's', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
 
   if (props.className) {
     classnames.push(props.className);

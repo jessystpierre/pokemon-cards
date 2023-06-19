@@ -1,0 +1,22 @@
+.card{
+    width: 420px;
+    height: 590px;
+    position: relative;
+}
+.card-background{
+    position: absolute;
+    z-index: 1;
+}
+.bulbasaur{
+    position: absolute;
+    z-index: 0;
+    top: 55px;
+    left: 35px;
+}
+.ability-container{
+    position: absolute;
+    z-index: 2;
+    top: 330px;
+    left: 35px;
+    font-size: 3rem;
+}
